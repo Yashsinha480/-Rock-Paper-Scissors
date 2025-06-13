@@ -27,7 +27,7 @@ const playgame=(user_choice)=>{
             user_win=comp_choice=="paper"? false: true;
         }
         else if(user_choice=="scissor"){
-            user_win=comp_choice=="rock"? false: true;
+            user_win=comp_choice=="stone"? false: true;
         }
         else if(user_choice=="paper"){
             user_win=comp_choice=="scissor"? false: true;
